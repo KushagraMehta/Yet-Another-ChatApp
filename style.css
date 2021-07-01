@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+.chatbox {
+  background: white;
+  width: 30vw;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.message {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100%;
+}
+body {
+  background: lightgray;
+}

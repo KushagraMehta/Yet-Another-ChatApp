@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebRTC Chat App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="root">
+      <div style="text-align: center">
+        Local Peer
+        <div class="chatbox">
+          <div class="message" id="localmsg"></div>
+          <input id="local" type="text" required />
+        </div>
+      </div>
+      <div style="text-align: center">
+        Remote Peer
+        <div class="chatbox">
+          <div class="message" id="remotemsg"></div>
+          <input id="remote" type="text" required />
+        </div>
+      </div>
+    </div>
+    <script src="./script.js" />
+  </body>
+</html>
